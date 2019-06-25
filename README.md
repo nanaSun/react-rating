@@ -33,7 +33,7 @@ export default NuButton;
 ```
 
 因为 `@y-fe/nu-button-react` 是纯逻辑组件本身不会输出任何样式，在实际项目中使用需要二次封装。
-这里采用的是 [nu-button](https://yued-fe.github.io/nu-system/packages/button/) 里面的 bootstrap 皮肤。
+这里采用的是 [nu-button](https://nu-system.github.io/vanilla/button/) 里面的 bootstrap 皮肤。
 
 ### 使用
 
@@ -113,7 +113,7 @@ export default NuButton;
 
 nu-button-react 会将上所有的 `boolean` 属性，基于以下的 「 class 映射表 」添加对应的 class 到按钮上。
 
-想要自定义样式，只需要围绕对应选择器进行开发即可, 样式定义规则可以查看 [nu-button](https://yued-fe.github.io/nu-system/packages/button/)。
+想要自定义样式，只需要围绕对应选择器进行开发即可, 样式定义规则可以查看 [nu-button](https://nu-system.github.io/vanilla/button/)。
 
 | props |  class |
 |:----------|------:|

@@ -4,13 +4,13 @@
   "description": "NU 「 no-ui 」 组件库系统 nu-system，按钮组件 React 实现",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "repository": "git@github.com:yued-fe/nu-react.git",
+  "repository": "git@github.com:nu-system/button-react.git",
   "author": "yfe-team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yued-fe/nu-react/issues"
+    "url": "https://github.com/nu-system/button-react/issues"
   },
-  "homepage": "https://yued-fe.github.io/nu-react/example/packages/button",
+  "homepage": "https://nu-system.github.io/react/button/",
   "files": [
     "css",
     "es",
