@@ -1,9 +1,9 @@
-# nu-button-react
+# nu-react-button
 
 [![npm package][npm-badge]][npm]
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/@y-fe/nu-button-react
+[npm]: https://www.npmjs.org/package/@_nu/react-button
 
 <iframe src="https://codesandbox.io/embed/throbbing-leftpad-juijc?autoresize=1&fontsize=14&hidenavigation=1&module=%2Fsrc%2Fcomponents%2FButton.js" title="throbbing-leftpad-juijc" style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"></iframe>
 
@@ -12,27 +12,23 @@
 ## 怎么用？
 
 ```
-npm i @y-fe/nu-button-react @y-fe/nu-button
-```
-
-```
-yarn add @y-fe/nu-button-react @y-fe/nu-button
+yarn add @_nu/react-button @_nu/vanilla-button
 ```
 
 ### 二次封装
 
 ```JSX
 /* @components/Button/index.js */
-import NuButton from "@y-fe/nu-button-react";
-import "@y-fe/nu-button";     // 样式组件
-import "@y-fe/nu-button/css/skins/bootstrap.css"; // bootstrap 皮肤 
+import NuButton from "@_nu/react-button";
+import "@_nu/vanilla-button";     // 样式组件
+import "@_nu/vanilla-button/css/skins/bootstrap.css"; // bootstrap 皮肤 
 // import './style.css'; // 你自定义的css样式
 NuButton.defaultProps.color = "primary";  // 自定义默认颜色
 NuButton.defaultProps.variant = "ghost";  // 自定义默认变体
 export default NuButton;
 ```
 
-因为 `@y-fe/nu-button-react` 是纯逻辑组件本身不会输出任何样式，在实际项目中使用需要二次封装。
+因为 `NuButton` 是纯逻辑组件本身不会输出任何样式，在实际项目中使用需要二次封装。
 这里采用的是 [nu-button](https://nu-system.github.io/vanilla/button/) 里面的 bootstrap 皮肤。
 
 ### 使用

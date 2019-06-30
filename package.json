@@ -1,15 +1,13 @@
 {
-  "name": "@y-fe/nu-button-react",
-  "version": "0.0.12",
+  "name": "@_nu/react-button",
+  "version": "0.0.1",
   "description": "NU 「 no-ui 」 组件库系统 nu-system，按钮组件 React 实现",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "repository": "git@github.com:nu-system/button-react.git",
   "author": "yfe-team",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nu-system/button-react/issues"
-  },
+  "repository": "git@github.com:nu-system/react-button.git",
+  "bugs": "https://github.com/nu-system/react-button/issues",
   "homepage": "https://nu-system.github.io/react/button/",
   "files": [
     "css",
