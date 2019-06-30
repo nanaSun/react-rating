@@ -25,15 +25,14 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "prop-types": "^15.7.2",
-    "classnames": "^2.2.6"
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "react": "16.x",
-    "@y-fe/nu-button": "^0.0.3"
+    "nwb": "0.23.x",
+    "react": "16.x"
   },
   "devDependencies": {
-    "nwb": "0.23.x",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
