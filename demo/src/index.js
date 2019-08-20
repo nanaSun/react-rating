@@ -8,7 +8,7 @@ class Demo extends Component {
     return (
       <div>
         <h1>button Demo</h1>
-        <Button primary large>hello world！</Button>
+        <Button  primary large>hello world！</Button>
         <Button>hello world！</Button>
         <Button type="submit">Submit button</Button>
         <Button href=".">Submit button</Button>

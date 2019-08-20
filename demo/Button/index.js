@@ -1,6 +1,6 @@
 import NuButton from '../../src/index';
-import '@y-fe/nu-button';
-import '@y-fe/nu-button/css/skins/bootstrap.css';
+import '@_nu/css-button';
+import '@_nu/css-button/css/skins/bootstrap.css';
 
 // 自定义默认颜色
 NuButton.defaultProps.color = 'primary';
